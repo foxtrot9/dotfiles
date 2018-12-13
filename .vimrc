@@ -39,6 +39,9 @@ call plug#begin('~/.vim/bundle')
 " Unmanaged plugin (manually installed and updated)
 " Plug '~/my-prototype-plugin'
 
+" vim-plug help plugin
+Plug 'junegunn/vim-plug'
+
 " Go plugin
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
