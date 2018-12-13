@@ -43,7 +43,7 @@ call plug#begin('~/.vim/bundle')
 Plug 'junegunn/vim-plug'
 
 " Go plugin
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'fatih/vim-go' ", { 'do': ':GoUpdateBinaries' }
 
 " Initialize plugin system
 call plug#end()
